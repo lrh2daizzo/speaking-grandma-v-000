@@ -5,6 +5,7 @@ def speak_to_grandma(phrase)
     "I LOVE YOU TOO PUMPKIN!"
   elsif phrase.upcase
     "NO, NOT SINCE 1938!"
+    binding.pry
   else
     "HUH?! SPEAK UP, SONNY!"
   end
