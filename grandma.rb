@@ -1,4 +1,7 @@
 require 'pry'
+def uppercase?(phrase)
+  phrase == phrase.upcase
+end
 
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
